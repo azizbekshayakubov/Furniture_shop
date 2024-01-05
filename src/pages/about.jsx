@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import a6 from "../assets/images/about/a6.jpg";
-import vid from "../assets/images/about/1.mp4";
+import a6 from "../assets/images/about/a6.png";
 import img1 from "../assets/images/blog/blog-1.jpg";
 import img2 from "../assets/images/blog/blog-2.jpg";
 import img3 from "../assets/images/blog/blog-3.jpg";
@@ -68,19 +67,7 @@ const About = () => {
       <section className="download p-3">
         <div className="container-xxl">
           <div className="row">
-            <div className="d-flex flex-column align-items-center justify-content-center">
-              <div className="mb-4">
-                <h2 className="text-center">
-                  Download our
-                  <Link className="fs-2">
-                    <b>App</b>
-                  </Link>
-                </h2>
-              </div>
-              <div className="col-6">
-                <video loop autoPlay muted src={vid}></video>
-              </div>
-            </div>
+            <div className="d-flex flex-column align-items-center justify-content-center"></div>
           </div>
         </div>
       </section>
